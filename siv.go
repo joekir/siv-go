@@ -7,9 +7,8 @@ import (
 	"crypto/cipher"
 	"crypto/subtle"
 	"errors"
+	"github.com/joekir/cmac"
 	"hash"
-
-	"github.com/ebfe/cmac"
 )
 
 // New returns a new SIV AEAD with the given key and encryption algorithm. The
