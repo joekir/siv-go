@@ -14,10 +14,17 @@ func Fuzz(data []byte) int {
 
 	// TODO fuzz first args too
 	ciphertext := aead.Seal(nil, nil, data, data)
-	data[0] ^= 1
+	if data == nil || len(data) == 0 {
+		// Don't care about this case
+		return 0
+	}
 
-	_, err = aead.Open(nil, nil, ciphertext, data)
+	data[0] ^= 1
+	result, err := aead.Open(nil, nil, ciphertext, data)
 	if err == nil {
+		if result != nil {
+			panic("aead.Open returned non-nil on err")
+		}
 		return 0
 	}
 
