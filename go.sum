@@ -1,0 +1,8 @@
+github.com/dvyukov/go-fuzz v0.0.0-20190731093604-f6654ea54e55 h1:ubQDVEKyOAvqHQU217Nk1jw4/nWNfSNLlk0yANxmsXY=
+github.com/dvyukov/go-fuzz v0.0.0-20190731093604-f6654ea54e55/go.mod h1:11Gm+ccJnvAhCNLlf5+cS9KjtbaD5I5zaZpFMsTHWTw=
+github.com/ebfe/cmac v0.0.0-20170228113446-ebd7188d8f93 h1:x2csYAmiZlE3bN+oQPa+kQyUktGCZYY4yzIfat4R734=
+github.com/ebfe/cmac v0.0.0-20170228113446-ebd7188d8f93/go.mod h1:SD2/tqWyrDTTj1071Zg2b0WM14kaK6Bale3nhkQXtRQ=
+github.com/joekir/cmac v0.0.0-20170228113446-ebd7188d8f93 h1:5/Vv/wcxYsSH2mx4XNNeHheLr2pmiz26QCWXB6g3Zd4=
+github.com/joekir/cmac v0.0.0-20170228113446-ebd7188d8f93/go.mod h1:ryV/En3WwLg6ILIVYaNupBW5Z4vk/iWHqi8MEDE8WLs=
+github.com/joekir/siv-go v0.0.0-20150820013352-e8f277f302f2 h1:Z1bM+fbSMwNF1yyemCwbwGtQMTtWyWEuDqKhoNPZ7XQ=
+github.com/joekir/siv-go v0.0.0-20150820013352-e8f277f302f2/go.mod h1:gAQ79UHW5QznWlYMz5Qc1x9hGc1KDS/BolCtY4lzJ1U=
